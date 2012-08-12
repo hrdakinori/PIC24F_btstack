@@ -110,12 +110,9 @@ Microchip Application Libraries
 „           usb_host.h
 „           
 „¤„ŸUSB
-        USB PIC24.h
         usb_hal_local.h
         usb_hal_pic24.c
         usb_host.c
-        usb_host_generic.c
-        usb_host_generic.h
         usb_host_local.h
 </pre>
 
