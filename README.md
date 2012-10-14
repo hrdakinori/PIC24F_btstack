@@ -26,6 +26,7 @@ Microchip Application Libraries
 
 
 このリポジトリのファイルとbtstackとUSB Frameworkのファイルを以下のフォルダ構成にします
+(btstack, Microchip Libraries of Applicationsのバージョンによってはファイル構成が異なる可能性があります)
 <pre>
 ┬─BT_IO.mcp
 │  BT_IO.mcs
@@ -62,7 +63,6 @@ Microchip Application Libraries
 │  │          utils.h
 │  │          
 │  └─src
-│          btstack.c
 │          btstack_memory.c
 │          btstack_memory.h
 │          bt_control.h
@@ -97,6 +97,7 @@ Microchip Application Libraries
 │      
 ├─Include
 │  │  Compiler.h
+│  │  debug.h
 │  │  GenericTypeDefs.h
 │  │  struct_queue.h
 │  │  uart2.h
