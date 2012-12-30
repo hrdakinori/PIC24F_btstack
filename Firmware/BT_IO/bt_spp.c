@@ -59,7 +59,6 @@ char send_buf[17];
 /* SPP RECIVE DATA  */
 int bt_spp_recive_callback(uint16_t channel, uint8_t *packet, uint16_t size)
 {
-	static char a = 0;
 	packet[size] = 0;
 	switch(*(packet+0))
 	{

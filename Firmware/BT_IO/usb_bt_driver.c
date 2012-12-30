@@ -162,7 +162,7 @@ BOOL USBHostUSBBTEventHandler( BYTE address, USB_EVENT event, void *data, DWORD 
 				DWORD i;
 				DWORD dataCount = ((HOST_TRANSFER_DATA *)data)->dataCount;
 			    BYTE *userData = ((HOST_TRANSFER_DATA *)data)->pUserData;
-			    BYTE errorCode = ((HOST_TRANSFER_DATA *)data)->bErrorCode;
+//			    BYTE errorCode = ((HOST_TRANSFER_DATA *)data)->bErrorCode;
 
 				if ( ((HOST_TRANSFER_DATA *)data)->bEndpointAddress == g_usbbt.endpointBulkIN )
 				{

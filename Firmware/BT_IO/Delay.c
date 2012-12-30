@@ -71,7 +71,7 @@ void DelayMs(WORD ms)
 #endif	//#if !defined(__18CXX) || defined(HI_TECH_C)
 
 
-#if defined(__C30__) || defined(__C32__)
+#if defined(__C30__) || defined(__C32__) || defined __XC16__
 void Delay10us(DWORD dwCount)
 {
 	volatile DWORD _dcnt;

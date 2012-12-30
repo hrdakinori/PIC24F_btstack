@@ -145,9 +145,9 @@ static int sw_process(struct data_source *ds)
 		{
 			if(sw == 0x4000)
 			{
-				bt_spp_send("S0",2);
+				bt_spp_send((uint8_t*)"S0",2);
 			}else{
-				bt_spp_send("S1",2);
+				bt_spp_send((uint8_t*)"S1",2);
 			}
 			swcount = 1500;
 			lastsw = sw;

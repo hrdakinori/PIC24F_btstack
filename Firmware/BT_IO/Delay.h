@@ -73,7 +73,7 @@
 			Delay1KTCYx((GetInstructionClock()+999999)/1000000);	\
 	} while(0)
 
-#elif defined(__C30__) || defined(__C32__)
+#elif defined(__C30__) || defined(__C32__) || defined __XC16__
 	void Delay10us(DWORD dwCount);
 	void DelayMs(WORD ms);
 
