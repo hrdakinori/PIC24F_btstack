@@ -28,9 +28,9 @@ Microchip Application Libraries
 このリポジトリのファイルとbtstackとUSB Frameworkのファイルを以下のフォルダ構成にします
 (btstack, Microchip Libraries of Applicationsのバージョンによってはファイル構成が異なる可能性があります)
 <pre>
-┬─BT_IO.mcp
-│  BT_IO.mcs
-│  BT_IO.mcw
+┬─BT_IO.mcp <-MPLAB IDE Project
+│  BT_IO.mcs <-MPLAB IDE Project
+│  BT_IO.mcw <-MPLAB IDE Project
 │  bt_spp.c
 │  bt_spp.h
 │  Delay.c
@@ -41,6 +41,8 @@ Microchip Application Libraries
 │  usb_bt_driver.h
 │  usb_config.c
 │  usb_config.h
+│  
+├─BT_IO.X <-MPLAB X Project
 │  
 ├─btstack
 │  ├─hal
